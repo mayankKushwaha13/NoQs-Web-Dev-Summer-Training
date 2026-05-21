@@ -1,4 +1,7 @@
 import { useState } from "react";
+// import img from "../assets/image.png"; 
+import img from "../assets/image.webp"; // optimisation
+
 
 function Header() {
 
@@ -7,6 +10,10 @@ function Header() {
     return (
         <header>
             <h1>React Hooks Assessment</h1>
+
+            {/* <img src={img} alt="quote" width = "300"/>  */}
+            
+            <img src={img} alt="quote" width = "300" loading="lazy"/> 
 
             {
                 isLoggedIn ? (
