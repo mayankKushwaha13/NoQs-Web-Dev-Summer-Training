@@ -1,0 +1,23 @@
+:root{
+  --primary-color:#6c63ff;
+  --bg-color:#f5f6fa;
+  --text-dark:#222222;
+  --white:#ffffff;
+
+  --space-sm:8px;
+  --space-md:16px;
+  --space-lg:32px;
+
+  --radius:12px;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:var(--bg-color);
+  font-family:Arial, sans-serif;
+}
